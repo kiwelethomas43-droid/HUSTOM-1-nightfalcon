@@ -1,0 +1,185 @@
+![HUSTOM EMPIRE](HUSTOM_EMPIRE_LOGO_80KB.jpg)
+
+# 🦅 HUSTOM-2 SEAFALCON
+### HUSTOM EMPIRE | F-117 Faceted + Submarine + VIP Rescue | Civilian Only
+
+> **Designed in Zanzibar • For Rescue • No Weapons • Planning Purposes Only**
+> **Founder: Thomas Hustom - HUSTOM EMPIRE**
+
+---
+
+## 🔥 NEW DESIGN - DIFFERENT FROM ALL OTHERS
+
+- **F-117 Faceted Shape:** Sharp diamond panels, white + deep teal + dark grey
+- **Submarine Features:** Periscope Mast, Sonar Dome, Dive Planes, Ballast Pontoons, Pressure Hull, Hydrophone Array
+- **2x Back Engines:** Like F-35 style - RETRACT + SINK INTO BODY + Waterproof Doors CLOSE for Deep Water - Sealed to 200m
+- **Large Wave Ready:** Self-Righting Hull, Ballast Tanks, High Bow, Sea State 6-7
+
+---
+
+## 📸 ALL VIEWS
+
+### FRONT VIEW - LOGO EVERYWHERE
+![Front](HUSTOM2_SEAFALCON_FRONT_Logo_80KB.jpg)
+
+### TOP VIEW WHEN IN SKY - ABOVE CLOUDS
+![Top Sky](HUSTOM2_SEAFALCON_TOP_Sky_Logo_80KB.jpg)
+
+### SIDE VIEW - 2x ENGINES + BALLAST PONTOONS
+![Side](HUSTOM2_SEAFALCON_SIDE_Logo_80KB.jpg)
+
+### BACK VIEW - 2x ENGINES RETRACT INTO BODY
+![Back](HUSTOM2_SEAFALCON_Back_2x_Engines_Retract_80KB.jpg)
+
+### NEW OUTSIDE - F-117 + SUBMARINE
+![New Outside](HUSTOM2_SEAFALCON_NEW_F117_Submarine_Outside_80KB.jpg)
+
+---
+
+## 🛩️ ADVANCED COCKPIT - LOGO EVERYWHERE
+
+![Cockpit](HUSTOM2_SEAFALCON_Advanced_Cockpit_Logo_80KB.jpg)
+
+- **Left:** SENSORS 500 ACTIVE - Hull 100%, Sonar Active, 12 Rescue Pings
+- **Middle:** AIR 300, SEA 200
+- **Right:** SUBMARINE MODE - Depth 45m, Ballast Standby
+- **Bottom Right:** Periscope Camera Feed ONLINE
+- **Bottom:** CIVILIAN RESCUE - NO WEAPONS
+- **Logo On:** Dashboard, Seat, Doors, Top Bar - EVERYWHERE!
+
+---
+
+## 👑 VIP CABIN - 12 SEATS + GLASS FLOOR
+
+![VIP](HUSTOM2_SEAFALCON_VIP_12Seats_GlassFloor_80KB.jpg)
+
+- **12 Luxury VIP Seats:** 6 + 6 Configuration, 2 Rows
+- **Glass Floor:** Transparent floor in middle - See ocean bottom, coral, fish LIVE!
+- **Advanced Tech:** Personal touch screen per seat, Top screens - Life Support, Rescue Mode ON, Safety 100%
+- **Logo:** Gold HUSTOM EMPIRE eagle on every headrest + wall
+- **Use:** VIP Rescue Transport + Zanzibar Ocean Tours
+
+---
+
+## 📡 SENSORS - 500 TOTAL
+
+| Type | Count | Where |
+| --- | --- | --- |
+| AIR Sensors | 300 | Wings + Nose - Air Quality, Wind, Humidity |
+| SEA / OCEAN Sensors | 200 | Hull + Pontoons - Salinity, Depth, pH, Coral |
+| **TOTAL** | **500** | **All Active** |
+
+---
+
+## 🛩️ SPECS
+
+| Item | Value |
+| --- | --- |
+| Length | 14.2M |
+| Beam | 6.1M |
+| Wingspan | 6.2M |
+| Range | 1,200 KM |
+| Endurance | 36+ Hours |
+| Speed | 800 km/h in Sky / 280kt Max |
+| Crew | 4 Operators |
+| VIP | 12 Passengers |
+| Payload | 150KG |
+| Dive Depth | 50M - Engines Sealed to 200M |
+| Ceiling | 12,000m |
+| Power | Solar + Li-ion + 2x Retractable Turbines |
+
+---
+
+## 📁 Files
+
+- `HUSTOM2_SEAFALCON_FRONT_Logo_80KB.jpg`
+- `HUSTOM2_SEAFALCON_TOP_Sky_Logo_80KB.jpg`
+- `HUSTOM2_SEAFALCON_SIDE_Logo_80KB.jpg`
+- `HUSTOM2_SEAFALCON_Back_2x_Engines_Retract_80KB.jpg`
+- `HUSTOM2_SEAFALCON_Advanced_Cockpit_Logo_80KB.jpg`
+- `HUSTOM2_SEAFALCON_VIP_12Seats_GlassFloor_80KB.jpg`
+- `HUSTOM2_SEAFALCON_NEW_F117_Submarine_Outside_80KB.jpg`
+- `LICENSE`
+
+---
+
+## 📜 License
+
+🦅 **HUSTOM EMPIRE - MIT License**
+Copyright (c) 2026 Thomas Hustom - HUSTOM-2 SEAFALCON
+See [LICENSE](LICENSE) file - **LICENSE with S, not LICENCE**
+
+![HUSTOM EMPIRE](HUSTOM_EMPIRE_LOGO_80KB.jpg)
+# ============================================================
+#  🦅 HUSTOM EMPIRE 🦅
+#  HUSTOM-1 NIGHTFALCON | TBCC Hypersonic UAV Concept
+#  Founder: Thomas Hustom | Zanzibar -> Oxford -> Orbit
+#  Logo: HUSTOM_EMPIRE_LOGO.jpg in this repo
+#  Civilian - For Planning & Education - No Weapons
+# ============================================================
+
+# HUSTOM EMPIRE ASCII LOGO - Shows in every run
+HUSTOM_LOGO = """
+   🦅 HUSTOM EMPIRE 🦅
+  \\  \\  /  /  \\  \\  /  /
+   \\  \\/  \\/  /  /
+    \\  FALCON  /
+     \\  /  \\  /
+      \\/    \\/
+  HUSTOM-1 NIGHTFALCON
+  Zanzibar -> Oxford -> Orbit
+"""
+
+def show_logo():
+    print(HUSTOM_LOGO)
+    print("="*50)
+    print("HUSTOM EMPIRE | HUSTOM-1 NIGHTFALCON")
+    print("="*50)
+
+class Nightfalcon:
+    def __init__(self):
+        self.logo = "HUSTOM EMPIRE"
+        self.mode = "IDLE"
+        self.fuel = 100
+        self.altitude = 0
+        self.endurance = 0
+
+    def show_brand(self):
+        print(f"[{self.logo}] HUSTOM-1 NIGHTFALCON - Mode: {self.mode}")
+
+    def mission(self, hours):
+        show_logo()
+        missions = {
+            12: {"name": "12HR Extended Loiter", "range": 900, "fuel": "Standard + Aux"},
+            18: {"name": "18HR Long Range", "range": 1400, "fuel": "Extended + Standard"},
+            24: {"name": "24HR Max Endurance", "range": 1100, "fuel": "Max + Aux Pack"},
+        }
+        m = missions.get(hours, missions[12])
+        print(f"[{self.logo}] Starting Mission: {m['name']}")
+        print(f"[{self.logo}] Range: {m['range']} km | Fuel: {m['fuel']}")
+        print(f"[{self.logo}] Endurance: {hours} HR")
+        # Simulate mission
+        for h in range(1, hours+1):
+            self.fuel = max(0, 100 - (100*h//hours))
+            if h % 6 == 0 or h == hours:
+                print(f"[{self.logo}] Hour {h}/{hours} | Fuel {self.fuel}% | Alt 20000m")
+        print(f"[{self.logo}] Mission COMPLETE - {hours}HR Success!")
+        print(f"[{self.logo}] HUSTOM EMPIRE - Thank you!")
+
+    def eot_table(self):
+        show_logo()
+        print("HUSTOM EMPIRE - MODERN EOT REV 5.0")
+        print("Mode | Endurance | Range | Fuel")
+        print("12HR | 12 HR | 900 km | Standard + Aux")
+        print("18HR | 18 HR | 1400 km | Extended + Standard")
+        print("24HR | 24 HR | 1100 km | Max + Aux Pack")
+        print("CIVILIAN - FOR PLANNING")
+
+if __name__ == "__main__":
+    show_logo()
+    jet = Nightfalcon()
+    jet.eot_table()
+    print("")
+    jet.mission(12)
+    print("")
+    print("🦅 HUSTOM EMPIRE - From Zanzibar to Orbit 🦅")
